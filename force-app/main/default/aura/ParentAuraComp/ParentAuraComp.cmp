@@ -6,4 +6,6 @@
     </p>
    
 <c:childLightningComp name=" this is from aura" aura:id="childlwc"></c:childLightningComp>
+
+<c:childLightningComp></c:childLightningComp>
 </aura:component>
