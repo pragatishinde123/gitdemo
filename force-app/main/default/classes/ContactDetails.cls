@@ -1,4 +1,4 @@
-public with sharing class ContactDetails {
+public class ContactDetails {
     @AuraEnabled
     public static list<contact> getcontact()
     {
