@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="contact details" icon-name="custom:custom14">
+        <lightning-layout class="slds-var-m-around-small">
+            <lightning-layout-item>
+                <template lwc:if={contacts.data}>
+                    <template for:each={contacts.data} for:item="contact">
+                        <p key={contact.Id}> {contact.name}</p>
+                       <!-- <c-contact-item contact={contact} key={contact.Id} > </c-contact-item> 
+                     -->
+                    </template>
+                </template>
+            </lightning-layout-item>
+            <lightning-layout-item></lightning-layout-item>
+
+           </lightning-layout>
+    
+    </lightning-card>
+    
+ 
+</template>

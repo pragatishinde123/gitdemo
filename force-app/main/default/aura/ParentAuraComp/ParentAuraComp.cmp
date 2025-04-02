@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+   
+    <p>
+        <lightning:button variant="brand" label="Brand" title="Brand action" onclick="{! c.handleClick }" />
+
+    </p>
+   
+<c:childLightningComp name=" this is from aura" aura:id="childlwc"></c:childLightningComp>
+</aura:component>

@@ -1,0 +1,15 @@
+<template>
+    <div>
+    <lightning-card title="imperative data">
+        <lightning-button label="click" onclick={handleClick}></lightning-button>
+     
+    </lightning-card>
+</div>
+    <div>
+        <lightning-datatable
+        key-field="Id"
+        data={data}
+        columns={columns}></lightning-datatable>
+        
+    </div>
+</template>
